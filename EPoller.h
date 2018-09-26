@@ -7,7 +7,7 @@
 
 #include <vector>
 
-#include <tinyev/noncopyable.h>
+#include "noncopyable.h"
 
 namespace ev
 {

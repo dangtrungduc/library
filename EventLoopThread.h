@@ -7,7 +7,7 @@
 
 #include <thread>
 
-#include <tinyev/CountDownLatch.h>
+#include "CountDownLatch.h"
 
 namespace ev
 {

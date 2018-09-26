@@ -8,7 +8,7 @@
 #include <mutex>
 #include <condition_variable>
 
-#include <tinyev/noncopyable.h>
+#include "noncopyable.h"
 
 namespace ev
 {

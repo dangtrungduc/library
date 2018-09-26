@@ -9,7 +9,7 @@
 #include <memory>
 #include <sys/epoll.h>
 
-#include <tinyev/noncopyable.h>
+#include "noncopyable.h"
 
 namespace ev
 {

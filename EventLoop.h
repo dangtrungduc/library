@@ -10,9 +10,9 @@
 #include <vector>
 #include <sys/types.h>
 
-#include <tinyev/Timer.h>
-#include <tinyev/EPoller.h>
-#include <tinyev/TimerQueue.h>
+#include "Timer.h"
+#include "EPoller.h"
+#include "TimerQueue.h"
 
 namespace ev
 {
