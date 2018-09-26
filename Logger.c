@@ -11,7 +11,7 @@
 #include <errno.h>
 #include <sys/time.h>
 
-#include <tinyev/Logger.h>
+#include "Logger.h"
 
 #define MAXLINE     256
 

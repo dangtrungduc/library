@@ -6,8 +6,8 @@
 #include <sys/epoll.h>
 #include <cassert>
 
-#include <tinyev/Logger.h>
-#include <tinyev/EventLoop.h>
+#include "Logger.h"
+#include "EventLoop.h"
 
 using namespace ev;
 

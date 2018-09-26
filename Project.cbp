@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ddang/library"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/ddang/library"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/ddang/library"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ddang/library"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinyev">
+				<Option output="/home/ddang/library/libtinyev.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ddang/library"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 tinyev"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinyev/fast">
+				<Option output="/home/ddang/library/libtinyev.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ddang/library"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 tinyev/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ddang/library"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/ddang/library"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/ddang/library"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ddang/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ddang/library/Callbacks.h">
+			<Option target="tinyev"/>
+		</Unit>
+		<Unit filename="/home/ddang/library/Channel.cc">
+			<Option target="tinyev"/>
+		</Unit>
+		<Unit filename="/home/ddang/library/Channel.h">
+			<Option target="tinyev"/>
+		</Unit>
+		<Unit filename="/home/ddang/library/CountDownLatch.h">
+			<Option target="tinyev"/>
+		</Unit>
+		<Unit filename="/home/ddang/library/EPoller.cc">
+			<Option target="tinyev"/>
+		</Unit>
+		<Unit filename="/home/ddang/library/EPoller.h">
+			<Option target="tinyev"/>
+		</Unit>
+		<Unit filename="/home/ddang/library/EventLoop.cc">
+			<Option target="tinyev"/>
+		</Unit>
+		<Unit filename="/home/ddang/library/EventLoop.h">
+			<Option target="tinyev"/>
+		</Unit>
+		<Unit filename="/home/ddang/library/EventLoopThread.cc">
+			<Option target="tinyev"/>
+		</Unit>
+		<Unit filename="/home/ddang/library/EventLoopThread.h">
+			<Option target="tinyev"/>
+		</Unit>
+		<Unit filename="/home/ddang/library/Logger.c">
+			<Option target="tinyev"/>
+		</Unit>
+		<Unit filename="/home/ddang/library/Logger.h">
+			<Option target="tinyev"/>
+		</Unit>
+		<Unit filename="/home/ddang/library/ThreadPool.cc">
+			<Option target="tinyev"/>
+		</Unit>
+		<Unit filename="/home/ddang/library/ThreadPool.h">
+			<Option target="tinyev"/>
+		</Unit>
+		<Unit filename="/home/ddang/library/Timer.h">
+			<Option target="tinyev"/>
+		</Unit>
+		<Unit filename="/home/ddang/library/TimerQueue.cc">
+			<Option target="tinyev"/>
+		</Unit>
+		<Unit filename="/home/ddang/library/TimerQueue.h">
+			<Option target="tinyev"/>
+		</Unit>
+		<Unit filename="/home/ddang/library/Timestamp.h">
+			<Option target="tinyev"/>
+		</Unit>
+		<Unit filename="/home/ddang/library/noncopyable.h">
+			<Option target="tinyev"/>
+		</Unit>
+		<Unit filename="/home/ddang/library/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
